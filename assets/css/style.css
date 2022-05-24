@@ -1,5 +1,9 @@
 /* MAIN STYLE SHEET (comment can be removed) */
 
+.title {
+    color: pink;
+    background-color: blue;
+}
 
 footer {
     position:absolute;

@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: homepage
+ * Template Name: news(niet_nodig)
  */
 
 $title = get_the_title();

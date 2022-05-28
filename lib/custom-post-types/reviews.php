@@ -27,7 +27,7 @@ function reviewsPostType()
             'editor',
         ],
         'rewrite' => [
-            'slug' => 'Reviews',
+            'slug' => 'reviews',
         ],
     ];
 

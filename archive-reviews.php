@@ -3,8 +3,8 @@
  * Template Name: reviews
  **/
 
-$title = 'reviews archief';
-
+$title = get_the_title();
+$content = get_the_content();
 $arguments = ['post_type' => 'reviews', 'numberposts' => 5, 'category' => 0, 'orderby' => 'date', 'order' => 'DESC'];
 $reviewPosts = get_posts($arguments);
 

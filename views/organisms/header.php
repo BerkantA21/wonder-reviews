@@ -2,7 +2,7 @@
 $menuItems = wp_get_nav_menu_items('Main Menu');
 ?>
 
-<header class="header navbar">
+<header class="header_navbar">
 
     <?php if($menuItems): ?>
     <ul class="menu">
